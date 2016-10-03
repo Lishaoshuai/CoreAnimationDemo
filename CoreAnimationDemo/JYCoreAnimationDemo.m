@@ -23,7 +23,8 @@
     self.title = @"Core Animation";
     _titles = [NSMutableArray array];
     _classNames = [NSMutableArray array];
-    [self addCell:@"Layer Tree" className:@"JYLayerTree"];
+    [self addCell:@"LayerTree" className:@"JYLayerTree"];
+    [self addCell:@"AnchorPoint" className:@"JYAnchorPoint"];
     [self.tableView reloadData];
 }
 
