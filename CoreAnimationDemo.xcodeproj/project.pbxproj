@@ -16,7 +16,7 @@
 		C43D0A5C1D9CDECA00036B2B /* JYCoreAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C43D0A5B1D9CDEB400036B2B /* JYCoreAnimationDemo.m */; };
 		C447CF491D9F1547004B97F6 /* JYAnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C447CF481D9F1477004B97F6 /* JYAnchorPoint.m */; };
 		C44B41B91D9CE24000B0B8BF /* JYLayerTree.m in Sources */ = {isa = PBXBuildFile; fileRef = C44B41B81D9CE24000B0B8BF /* JYLayerTree.m */; };
-		C4FE29631DA00DE2002C3029 /* JYLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE29621DA00DAE002C3029 /* JYLayer.m */; };
+		C4FE29661DA28FDD002C3029 /* JYContainPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FE29651DA28FDD002C3029 /* JYContainPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		C447CF481D9F1477004B97F6 /* JYAnchorPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYAnchorPoint.m; sourceTree = "<group>"; };
 		C44B41B71D9CE24000B0B8BF /* JYLayerTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLayerTree.h; sourceTree = "<group>"; };
 		C44B41B81D9CE24000B0B8BF /* JYLayerTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLayerTree.m; sourceTree = "<group>"; };
-		C4FE29611DA00DAE002C3029 /* JYLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYLayer.h; sourceTree = "<group>"; };
-		C4FE29621DA00DAE002C3029 /* JYLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYLayer.m; sourceTree = "<group>"; };
+		C4FE29641DA28FDD002C3029 /* JYContainPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYContainPoint.h; sourceTree = "<group>"; };
+		C4FE29651DA28FDD002C3029 /* JYContainPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYContainPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,10 @@
 			children = (
 				C44B41B71D9CE24000B0B8BF /* JYLayerTree.h */,
 				C44B41B81D9CE24000B0B8BF /* JYLayerTree.m */,
-				C4FE29611DA00DAE002C3029 /* JYLayer.h */,
-				C4FE29621DA00DAE002C3029 /* JYLayer.m */,
 				C447CF471D9F1477004B97F6 /* JYAnchorPoint.h */,
 				C447CF481D9F1477004B97F6 /* JYAnchorPoint.m */,
+				C4FE29641DA28FDD002C3029 /* JYContainPoint.h */,
+				C4FE29651DA28FDD002C3029 /* JYContainPoint.m */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -183,8 +183,8 @@
 				C447CF491D9F1547004B97F6 /* JYAnchorPoint.m in Sources */,
 				C43D0A481D9CDE7200036B2B /* AppDelegate.m in Sources */,
 				C43D0A5C1D9CDECA00036B2B /* JYCoreAnimationDemo.m in Sources */,
+				C4FE29661DA28FDD002C3029 /* JYContainPoint.m in Sources */,
 				C43D0A451D9CDE7200036B2B /* main.m in Sources */,
-				C4FE29631DA00DE2002C3029 /* JYLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

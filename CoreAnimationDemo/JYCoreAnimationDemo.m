@@ -26,6 +26,8 @@
     [self addCell:@"LayerTree" className:@"JYLayerTree"];
     [self addCell:@"AnchorPoint" className:@"JYAnchorPoint"];
     [self.tableView reloadData];
+    [self addCell:@"ContainPoint" className:@"JYContainPoint"];
+    
 }
 
 -(void)addCell:(NSString *)title className:(NSString *)className {
